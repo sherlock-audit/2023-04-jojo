@@ -1,0 +1,18 @@
+.coverage*
+.DS_Store
+.env
+.idea
+.vscode
+hardhat.config.ts
+
+artifacts/
+cache/
+node_modules/
+coverage/
+interact/
+joscelynTest/
+.gitmodules
+
+# VIM
+*.swo
+*.swp
