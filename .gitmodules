@@ -1,0 +1,16 @@
+[submodule "JUSDV1/lib/forge-std"]
+	path = JUSDV1/lib/forge-std
+	url = https://github.com/foundry-rs/forge-std
+	branch = v1.5.0
+[submodule "JUSDV1/lib/openzeppelin-contracts"]
+	path = JUSDV1/lib/openzeppelin-contracts
+	url = https://github.com/openzeppelin/openzeppelin-contracts
+[submodule "JUSDV1/lib/smart-contract-EVM"]
+	path = JUSDV1/lib/smart-contract-EVM
+	url = https://github.com/JOJOexchange/smart-contract-EVM
+[submodule "JUSDV1/lib/uniswap-v3-oracle"]
+	path = JUSDV1/lib/uniswap-v3-oracle
+	url = https://github.com/Mean-Finance/uniswap-v3-oracle
+[submodule "JUSDV1/lib/v3-core"]
+	path = JUSDV1/lib/v3-core
+	url = https://github.com/uniswap/v3-core
