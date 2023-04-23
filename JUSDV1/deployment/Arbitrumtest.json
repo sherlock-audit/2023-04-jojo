@@ -1,0 +1,51 @@
+{
+  "network": "arbitest",
+  "USDJ": "0x834D14F87700e5fFc084e732c7381673133cdbcC",
+  "USDJDecimal": 6,
+  "USDJBank": "0x5a46feAC934A757369E11065422Ef5916b501D36",
+  "JOJODealer": "0xFfD3B82971dAbccb3219d16b6EB2DB134bf55300",
+  "Insurance": "0xc3477972a62c4Ef3eDE0134653a1a09835ca9AE5",
+  "Owner": "0x9999159ac03167762e7476f008796f6e7deffad5",
+  "borrowFeeRate": 0,
+  "maxPerAccountBorrowAmount": 100000000000,
+  "maxReservesAmount": 10,
+  "maxTotalBorrowAmount": 1000000000000,
+  "t0Rate":1e18,
+  "reservesAmount": 2,
+  "USDJExchange": "0x606befa2836e276e9860d1bc6946f856df6b6f20",
+  "reserve": [
+    {
+      "token": "0x3cE004b7C03451188529E38581b28A3C5fa8BB77",
+      "Name": "WETH",
+      "decimal": 18,
+      "oracle": "0x9c16d4edfc422ed652642b292911be7f91f0dfd7",
+      "initialMortgageRate": 700000000000000000,
+      "maxTotalDepositAmount": 20300000000000000000000,
+      "maxDepositAmountPerAccount": 2030000000000000000000,
+      "maxBorrowValue": 100000000000,
+      "liquidationMortgageRate": 825000000000000000,
+      "liquidationPriceOff": 50000000000000000,
+      "insuranceFeeRate": 100000000000000000,
+      "isDepositAllowed": true,
+      "isBorrowAllowed": true
+    },
+    {
+      "token": "0x72bab59444baa826cb2fdad9386d17b0e470cdb9",
+      "Name": "WBTC",
+      "decimal": 8,
+      "oracle": "0x1c57d02febcd84514ec03559cfefea85df078332",
+      "initialMortgageRate": 700000000000000000,
+      "maxTotalDepositAmount": 210000000000,
+      "maxDepositAmountPerAccount": 21000000000,
+      "maxBorrowValue": 100000000000,
+      "liquidationMortgageRate": 800000000000000000,
+      "liquidationPriceOff": 50000000000000000,
+      "insuranceFeeRate": 100000000000000000,
+      "isDepositAllowed": true,
+      "isBorrowAllowed": true
+    }
+  ],
+  "FlashloanRepay":"0x3c94e7b70e924c047b850bdbd673a1e772fbe63a",
+  "FlashloanLiquidate": "0x21b49357089b0e79c4a4237b9283acfcbb298515",
+  "GeneralRepay": "0x8a923a6ba55dc1f9a72918137d0576a59c55a3c8"
+}
