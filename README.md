@@ -93,8 +93,8 @@ JOJO is especially interested in losses/malfunctioning related to MEV.
 ___
 
 ### Q: In case of external protocol integrations, are the risks of external contracts pausing or executing an emergency withdrawal acceptable? If not, Watsons will submit issues related to these situations that can harm your protocol's functionality.
-We use Chainlink and niswap as oracle price source. If the oracle is pausing, we still have emergency oracle so that do not worry about it.
-hainlink Oracle Failed
+We use Chainlink and Uniswap as oracle price source. If the oracle is pausing, we still have emergency oracle so that do not worry about it.
+Chainlink Oracle Failed.
 ___
 
 
