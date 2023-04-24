@@ -1,0 +1,13 @@
+{
+  "dependencies": {
+    "@mean-finance/uniswap-v3-oracle": "^1.0.3",
+    "bignumber": "^1.1.0",
+    "bignumber.js": "^9.1.0",
+    "bignumber.ts": "^1.0.0",
+    "ethers": "^5.7.2",
+    "truffle-contract-size": "^2.0.1"
+  },
+  "devDependencies": {
+    "prettier": "2.8.3"
+  }
+}

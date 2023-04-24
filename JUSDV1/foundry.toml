@@ -1,0 +1,23 @@
+[profile.default]
+src = 'src'
+out = 'out'
+libs = ['lib']
+solc_version = "0.8.9"
+gas_reports = ["JUSDBank"]
+chains = ["optimism", "mainnet", "bsctest"]
+
+test = 'test'
+#gas_reports_ignore = ["Utils", "MockToken","MockJOJODealer","MockFlashloan3", "MockFlashloan2", "MockFlashloan","MockERC20","MockChainLinkBadDebt"
+#,"MockChainLink500","MockChainLink2","MockChainLink","KT"]
+[rpc_endpoints]
+bnb_smart_chain_testnet = "${BSC_TEST_RPC_URL}"
+arbitrum_one_goerli = "${ARBITRUM_TEST_RPC_URL}"
+[etherscan]
+bnb_smart_chain_testnet = { key = "${BSC_MAINNET_KEY}", url = "${BSC_TEST_RPC_URL}"}
+arbitrum_one_goerli = { key = "${ARBITRUM_MAINNET_KEY}", url = "${ARBITRUM_TEST_RPC_URL}"}
+
+[fmt]
+multiline_func_header = 'params_first'
+bracket_spacing = true
+
+# See more config options https://github.com/foundry-rs/foundry/tree/master/config
